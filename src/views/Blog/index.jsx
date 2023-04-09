@@ -2,6 +2,7 @@ import { useState } from "react";
 import BaseLayout from "../../layouts/BaseLayout";
 import ContentLayout from "../../layouts/ContentLayout";
 const Blog = () => {
+  document.title = "Blog | Fahmi Sugiarto";
   const [modal, setModal] = useState(false);
 
   return (

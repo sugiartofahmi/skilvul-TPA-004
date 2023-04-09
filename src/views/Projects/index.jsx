@@ -1,6 +1,7 @@
 import BaseLayout from "../../layouts/BaseLayout";
 import ContentLayout from "../../layouts/ContentLayout";
 const Projects = () => {
+  document.title = "Projects | Fahmi Sugiarto";
   return (
     <BaseLayout id="projects">
       <ContentLayout>

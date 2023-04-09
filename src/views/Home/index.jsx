@@ -1,5 +1,6 @@
 import BaseLayout from "../../layouts/BaseLayout";
 const Home = () => {
+  document.title = "Home | Fahmi Sugiarto";
   return (
     <BaseLayout id="home">
       <h1 id="greeting">Hello world, i am</h1>
